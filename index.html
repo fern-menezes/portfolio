@@ -19,6 +19,7 @@
     <!-- Link para a folha de Estilos CSS-->
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
 
     <title>Portfólio Fern</title>
   </head>
@@ -99,18 +100,18 @@
         <p>
             Estou sempre em busca de novos desafios e colaborações. Se você tem uma ideia, projeto ou apenas quer bater um papo, entre em contato comigo! Vamos criar algo incrível juntos!
         </p>
-        <div id="icones_redes_sociais">
+        <div id="icones_redes_sociais" class="social-container">
           <a
             href="https://www.linkedin.com/in/fern-menezes/"
             target="_blank"
           >
-            <img class="linkedin" src="./assets/linkedin.svg" alt="Logo do LinkedIn" />
+            <img class="linkedin" src="./assets/linkedin.svg" alt="Logo do LinkedIn" class="social-icon"/>
           </a>
           <a href="https://github.com/fern-menezes" target="_blank">
-            <img src="./assets/github.svg" alt="Logo do Github" />
+            <img src="./assets/github.svg" alt="Logo do Github" class="social-icon"/>
           </a>
           <a href="https://www.instagram.com/artsfern" target="_blank">
-            <img src="./assets/instagram.svg" alt="Logo do Instagram" />
+            <img src="./assets/instagram.svg" alt="Logo do Instagram" class="social-icon"/>
           </a>
         </div>
         </div>
@@ -150,10 +151,9 @@
           ></textarea>
           <span id="txtMensagem"></span>
 
-          <!--<button type="submit"><a href="./sucess.html">Enviar</a></button> -->
-          <a href="sucesso.html" class="botao">
-            📤Enviar
-          </a>
+          <button type="submit" class="botao">
+            <a href="./sucess.html">Enviar</a>
+          </button>
         </form>
       </section>
     </main>
