@@ -40,7 +40,7 @@ h4 {
 
 .home_content img {
   display: flex;
-  width: 75%;
+  width: 110%;
 
   margin-left: auto;
   
@@ -128,7 +128,7 @@ form label{
   text-align: left;
 
 }
-form input{
+form input, textarea{
   width: 100%;
   padding: 0.5rem;
   border: none;
@@ -137,7 +137,7 @@ form input{
 }
 
 textarea{
-  resize: none;
+  resize: 1;
 }
 form span{
   margin-bottom: 0.5rem;
