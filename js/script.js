@@ -12,7 +12,7 @@ async function getApiGithub(){
             <img src="${perfil.avatar_url}" alt="Foto do Perfil do Github - ${perfil.name}">
 
             <!-- Texto da Seção Sobre -->
-            <article id="about_texto">
+            <article id="about_texto" class="about_texto">
                 <h2>Sobre mim</h2>
                 <p>Sou desenvolvedora full stack de JavaScript, formada em Administração.
           Fiz a transição de carreira da área administrativa para a tecnologia. Artista, com um grande amor por desenho
@@ -22,7 +22,7 @@ async function getApiGithub(){
           conferir no meu GitHub abaixo.</p>
 
                 <!-- Detalhes do Github -->
-                <div id="about_github" class="flex sobre_github">
+                <div id="about_github" class="flex about_github">
                     <a href="${perfil.html_url}" target="_blank" class="botao">
                         Github
                     </a>
@@ -32,7 +32,7 @@ async function getApiGithub(){
             </article>
         `;
 
-        about.innerHTML += conteudo;
+        sobre.innerHTML += conteudo;
     } catch (error) {
         console.error(error);
     }

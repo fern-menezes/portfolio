@@ -1,11 +1,10 @@
-main{
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: var(--gray-200);
+    background-color: var(--white);
     height: calc(100vh - 160px);
-
     gap: 1rem;
 }
